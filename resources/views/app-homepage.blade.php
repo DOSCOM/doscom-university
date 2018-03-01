@@ -22,7 +22,7 @@
 
 
 
-     <script type="text/javascript" src="{{ asset('/js/jquery.1.8.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/jquery.1.8.3.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/jquery-scrolltofixed.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/jquery.easing.1.3.js') }}"></script>
@@ -61,6 +61,13 @@
 .fa-instagram {
   background: purple;
   color: white;
+}
+.fa-git{
+
+    background:#3B5998;
+  color: white;
+
+
 }
 
 
@@ -949,11 +956,12 @@ Doscom University<br></h1>
 						<div class="featured-box-col2 wow fadeInRight delay-04s">
 							<h3>&nbsp Jaringan Komputer </h3>
                             <p>&nbsp Instalasi dan setting Mikrotik, Subnetting, Routing, Vpn, dan Hotspot </p>
-<br>
-<a class="btn " data-toggle="modal" data-target="#modalNetworking">Lihat Detail</a>
+                        
+                            <br>
+                <a class="btn " data-toggle="modal" data-target="#modalNetworking">Lihat Detail</a>
 
 
-</div>
+                    </div>
                     </div>
                     
                     <div class="featured-box">
@@ -965,13 +973,29 @@ Doscom University<br></h1>
 						<div class="featured-box-col2 wow fadeInRight delay-04s">
 							<h3>&nbsp Multimedia Inkscape </h3>
                             <p>&nbsp  Belajar basic 2D dengan menggunakan aplikasi Inkscape  </p>
-<br>
-<a class="btn " data-toggle="modal" data-target="#modalMultimedia">Lihat Detail</a>
+                    <br>
+                <a class="btn " data-toggle="modal" data-target="#modalMultimedia">Lihat Detail</a>
 
 
-</div>
+                    </div>
                     </div>
                     
+
+                    <div class="featured-box">
+						<div class="featured-box-col1 wow fadeInRight delay-04s">
+                        <img src="{{ asset('images/icon/2.png')}}" alt="">
+
+
+                    </div>
+						<div class="featured-box-col2 wow fadeInRight delay-04s">
+							<h3>&nbsp Godot Game Engine </h3>
+                            <p>&nbsp  Belajar basic 2D dengan menggunakan aplikasi Inkscape  </p>
+                    <br>
+                <a class="btn " data-toggle="modal" data-target="#modalMultimedia">Lihat Detail</a>
+
+
+                    </div>
+                    </div>
 
 
 				</div>
@@ -1156,99 +1180,117 @@ Doscom University<br></h1>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}" width="300px" alt="">
+						<img src="{{ asset('images/rizki.jpg')}}" width="300px" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx.id" class="fa-instagram"></a></li>
+							<li><a href="https://twitter.com/rzlnx" class="fa fa-twitter"></a></li>
+							<!-- <li><a href="https://facebook.com/rizki.mufti" class="fa fa-facebook"></a></li> -->
+							<li><a href="https://github.com/rizkimufti" class="fa fa-git"></a></li>
+							<li><a href="https://instagram.com/rzlnx.id" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-03s">Rizki Mufti Ilmawan</h3>
-					<span class="wow fadeInDown delay-03s">Web Programming</span>
+					<span class="wow fadeInDown delay-03s">Instruktur Web Programming</span>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}" alt="">
+						<img src="{{ asset('images/farah.jpg')}}" height="280px" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx.id" class="fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-git"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-06s">Namanya siapa</h3>
-					<span class="wow fadeInDown delay-06s">Mobile Programming</span>
+					<h3 class="wow fadeInDown delay-06s">Farah Luthfi Oktarina</h3>
+					<span class="wow fadeInDown delay-06s">Instruktur Female Dev</span>
 				</div>
 				
                 <div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}"alt="">
+						<img src="{{ asset('images/punk.jpg')}}" height="120px" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx.id" class="fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-git"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-06s">Namanya siapa</h3>
-					<span class="wow fadeInDown delay-06s">Mobile Programming</span>
-				</div>
-				
-                
-                <div class="team-leader-box">
-					<div class="team-leader  wow fadeInDown delay-06s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}" alt="">
-						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx.id" class="fa-instagram"></a></li>
-						</ul>
-					</div>
-					<h3 class="wow fadeInDown delay-06s">Namanya siapa</h3>
-					<span class="wow fadeInDown delay-06s">Mobile Programming</span>
+					<h3 class="wow fadeInDown delay-06s">Seviana Pungky Brilianti</h3>
+					<span class="wow fadeInDown delay-06s">Instruktur Mobile Programming</span>
 				</div>
 				
                 
                 <div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}" alt="">
+						<img src="{{ asset('images/okta.jpeg')}}" height="280px" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx.id" class="fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-git"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-06s">Namanya siapa</h3>
-					<span class="wow fadeInDown delay-06s">Mobile Programming</span>
+					<h3 class="wow fadeInDown delay-06s">Okta Arif Cahyawan</h3>
+					<span class="wow fadeInDown delay-06s">Instruktur Linux Fundamental</span>
+				</div>
+				
+                
+                <div class="team-leader-box">
+					<div class="team-leader  wow fadeInDown delay-06s">
+						<div class="team-leader-shadow"><a href="#"></a></div>
+						<img src="{{ asset('images/bayu.jpeg')}}" alt="">
+						<ul>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-git"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-06s">Muhammad Bayu Hermawan</h3>
+					<span class="wow fadeInDown delay-06s">Instruktur Jaringan Komputer</span>
 				</div>
 				
                 
                 
-                
+    
                 
                 <div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-09s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/team.jpg')}}" alt="">
+						<img src="{{ asset('images/abas.jpeg')}}" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="https://facebook.com/rizki.mufti" class="fa-facebook"></a></li>
-							<li><a href="https://github.com/rizkimufti" class="fa-git"></a></li>
-							<li><a href="https://instagram.com/rzlnx" class="fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<!-- <li><a href="https://facebook.com/" class="fa fa-facebook"></a></li> -->
+							<li><a href="https://github.com/" class="fa fa-git"></a></li>
+							<li><a href="https://instagram.com/" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-09s">Skyler white</h3>
-					<span class="wow fadeInDown delay-09s">Instructor</span>
+					<h3 class="wow fadeInDown delay-09s">Ahmad Basir</h3>
+					<span class="wow fadeInDown delay-09s">Instruktur Multimedia Inkscape</span>
 				</div>
-			</div>
+		
+          
+                <div class="team-leader-box1">
+                <center>
+
+					<div class="team-leader  wow fadeInDown delay-06s">
+						<div class="team-leader-shadow"><a href="#"></a></div>
+						<img src="{{ asset('images/.jpeg')}}" width="230px" alt="">
+						<ul>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-git"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-06s">Reno Kurniawan</h3>
+					<span class="wow fadeInDown delay-06s">Instruktur </span>
+				</div>
+				
+        
+        	</div>
 		</div>
+
+
+        
 	</section>
 
 	<!--main-section team-end-->
@@ -1288,8 +1330,8 @@ Doscom University<br></h1>
 					</div> -->
                     <center>
                     <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/doscomedia" class="fa fa-twitter"></a>
+                    <a href="https://instagram.com/doscomedia" class="fa fa-instagram"></a>
                     <center>
 				</div>
 				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
