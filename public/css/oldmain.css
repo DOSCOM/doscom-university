@@ -1,0 +1,459 @@
+body{
+	font-family: "Lato","sans";
+	overflow-x:hidden;
+	font-size: 16px;
+}
+/*h1,h2,h3,h4,h5,p{
+	color: #333;
+}*/
+a:hover{
+	text-decoration: none;
+}
+.container-fluid{
+	padding: 0;
+}
+header{
+	background:  url('../images/Suasana-Doscom-University-Kelas-Web.jpg') center center no-repeat fixed ;
+	-webkit-background-size:cover;
+	   -moz-background-size:cover;
+	    -o-background-size: cover;
+	        background-size: cover;
+	/*background-size: 100% auto;*/
+
+  	/*-webkit-filter: blur(1px);
+			filter: blur(1px);*/
+
+	color: #fff;
+	height: 100vh;
+	/*text-align: center;*/
+	display: -webkit-flex;
+  	display: flex;
+}
+header:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+   /* background-image:linear-gradient(
+      to right,
+      rgba(blue,0.9), rgba(red,0.7), transparent
+    );
+    /*background-image: linear-gradient(45deg,blue, yellow);*/
+    background-image: linear-gradient(to bottom right,#2C3E50,#22A7F0,#0055d4);
+    opacity: 0.6;
+    z-index: 8;
+}
+
+footer a{
+	background-color: #fff;
+	padding: 5px;
+	font-weight: bold;
+}
+.footer-kanan a{
+	color: #fff;
+	background: transparent !important;
+}
+.btn-default {
+		color: #FFF;
+		background-color: #428bca;
+		border-color: #428bca;
+		transition: background-color 250ms linear;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+		color: #428bca;
+		background-color: #fefefe;
+		border-color: #428bca;
+		transition: background-color 250ms linear;
+}
+
+.bg-abu p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.large-header {
+	position: absolute;
+	top: 0;
+	/*width: 100%;*/
+	/*background: #333;*/
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 10;
+	/*background:  url('../images/bg.png') center center no-repeat fixed ;
+	-webkit-background-size:auto, cover;
+	   -moz-background-size:auto, cover;
+	    -o-background-size: auto, cover;
+	        background-size: auto,cover;*/
+	/*opacity: 0.5;*/
+	background-size: 100% auto;
+}
+.welcome {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	z-index: 11;
+}
+
+.welcome h1{
+	/*color: #D2D7D3;*/
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 4em;
+	letter-spacing: 0.1em;
+	z-index: 100;
+	/*background-color: #fff;*/
+}
+.welcome a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	z-index: 100;
+	border: 1px solid #fff;
+	/*border-top: 5px solid #fff;*/
+	padding: 5px 10px;
+	/*padding-top: 15em;*/
+	transition: padding 250ms linear;
+
+}
+.welcome a:hover{
+	padding: 10px 15px;
+	transition: padding 250ms linear;
+
+}
+.btn-lg, .btn-group-lg > .btn{
+	border-radius: 0;
+}
+.modal-body b{
+	line-height: 30px;
+}
+.bagian-daftar{
+	padding: 70px 0 70px;
+}
+
+#daftar .col-md-12{
+	padding: 100px;
+}
+
+.welcome .thin {
+	font-weight: 200;
+}
+header h1{
+	/*margin: auto;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;*/
+}
+
+.kelas{
+	margin: 5em 0;
+}
+.jadwal{
+	margin: 5em 0;
+}
+.bg-abu{
+	background-color: #eee;
+
+}
+.fasilitas{
+padding:40px 50px 40px 50px
+}
+#tentang .bg-abu{
+	padding: 50px;
+}
+
+
+.bg-biru{
+	/*background-image: linear-gradient(to bottom right,#2C3E50,#333);*/
+	background-color: #4183D7;
+	color: #fff !important;
+	padding: 40px 40px 65px 50px;
+
+}
+.poster{
+	-webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+	width :50% !important;
+}
+
+
+.gambar{
+	/*width: 200px;
+	height: auto;*/
+}
+
+.grow{
+    /*width: 200px;
+    height: 200px;*/
+    overflow: hidden;
+    display: inline-block;
+	margin-bottom: 10px;
+}
+
+.grow img {
+	border-radius: 50%;
+	border: 1px solid #eee;
+  	height: 200px;
+  	width: 200px;
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+
+
+	/*-webkit-filter: blur(0);
+	   -moz-filter: blur(0);
+	     -o-filter: blur(0);
+	    -ms-filter: blur(0);
+        -ms-filter: blur(0);
+            filter: blur(0);*/
+}
+
+.grow img:hover {
+	/*width: 400px;
+	height: 400px;*/
+	/*-webkit-filter: blur(0.5px);
+	   -moz-filter: blur(0.5px);
+	     -o-filter: blur(0.5px);
+	    -ms-filter: blur(0.5px);
+            filter: blur(0.5px);*/
+
+}
+
+.equal{
+	padding: 2em;
+
+}
+
+.shadow{
+	-webkit-box-shadow: 1px 1px 5px 2px rgba(36,32,36,0.5);
+	-moz-box-shadow: 1px 1px 5px 2px rgba(36,32,36,0.5);
+	box-shadow: 1px 1px 5px 2px rgba(36,32,36,0.5);
+}
+
+
+footer{
+	/*background-color: #000c1e;*/
+	background-color: #286abd;
+	padding: 20px;
+	color: #fff;
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.back{
+	color: #eee;
+}
+.back:hover{
+	color: #fff;
+}
+.daftar{
+	padding: 20px;
+}
+.pilih-kelas{
+	width: 19%;
+	min-height: 200px;
+	display: inline-block;
+}
+
+thead th,td{
+	text-align: center;
+	color: #fff;
+	border-color: 2px solid #fff;
+}
+
+tbody th,td{
+	text-align: center;
+	color: #333;
+	border-color: 2px solid #fff;
+}
+thead tr{
+	background-color: #286abd;
+}
+/*body th{
+	background-color: #0055d4;
+}*/
+
+tbody td,tbody th{
+	background-color: #EEE;
+}
+.kelas h2{
+	color: #4183D7;
+}
+
+.label-hijau{
+	background-color: #27ae60;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 10px;
+	font-weight: 700;
+}
+.label-hijau:hover{
+	background-color: #1e8449;
+	color: #fff;
+}
+.label-biru{
+	background-color: #4183D7;
+	color: #fff;
+	display: inline-block;
+	padding: 7px 10px;
+	font-weight: 700;
+}
+.text-biru{
+	color: #286abd;
+}
+thead th,td{
+	text-align: center;
+	color: #fff;
+	border-color: 2px solid #fff;
+}
+
+tbody th,td{
+	text-align: center;
+	color: #333;
+	border-color: 2px solid #fff;
+}
+thead tr{
+	background-color: #286abd;
+}
+/*body th{
+	background-color: #0055d4;
+}*/
+
+tbody td,tbody th{
+	background-color: #EEE;
+}
+.kelas h2{
+	color: #4183D7;
+}
+
+.label-hijau{
+	background-color: #27ae60;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 10px;
+	font-weight: 700;
+}
+.label-hijau:hover{
+	background-color: #1e8449;
+	color: #fff;
+}
+.label-biru{
+	background-color: #4183D7;
+	color: #fff;
+	display: inline-block;
+	padding: 7px 10px;
+	font-weight: 700;
+}
+.text-biru{
+	color: #286abd;
+}
+thead th,td{
+	text-align: center;
+	color: #fff;
+	border-color: 2px solid #fff;
+}
+
+tbody th,td{
+	text-align: center;
+	color: #333;
+	border-color: 2px solid #fff;
+}
+thead tr{
+	background-color: #286abd;
+}
+/*body th{
+	background-color: #0055d4;
+}*/
+
+tbody td,tbody th{
+	background-color: #EEE;
+}
+.kelas h2{
+	color: #4183D7;
+}
+
+.label-hijau{
+	background-color: #27ae60;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 10px;
+	font-weight: 700;
+}
+.label-hijau:hover{
+	background-color: #1e8449;
+	color: #fff;
+}
+.label-biru{
+	background-color: #4183D7;
+	color: #fff;
+	display: inline-block;
+	padding: 7px 10px;
+	font-weight: 700;
+}
+.text-biru{
+	color:black;
+}
+
+.form-wrap{
+	position: relative;
+    padding-bottom: 80%;
+    padding-top: 20%;
+    height: 0;
+    overflow: hidden;
+}
+.form-wrap iframe{
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:599px) {
+
+	.welcome h1{
+		font-weight: 700;
+		font-size: 2.5em;
+	}
+	.welcome a{
+		font-size: 12px;
+	}
+	.pilih-kelas{
+		width: 49%;
+		margin-bottom: 2em;
+		min-height: 100px;
+		display: inline-block;
+	}
+	.grow{
+	    min-height: 100px;
+	}
+	.grow img {
+		width: 150px;
+		height: 150px;
+	}
+	.footer-kanan{
+		margin-top: 20px;
+	}
+
+}

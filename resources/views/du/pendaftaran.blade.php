@@ -1,6 +1,8 @@
 @extends('app-du')
 
 @section('content')
+
+
     <div class="head"><i class=" glyphicon glyphicon-list-alt"></i><br> Doscom University
     </div>
 
