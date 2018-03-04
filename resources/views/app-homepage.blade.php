@@ -73,7 +73,8 @@
 
 </style>
 
-  
+ 
+
     <!-- <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/main.css') }}">
@@ -316,7 +317,51 @@
 
     </section> -->
 
+ <!-- Modal -->
+ <div id="modalfaq" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+     <!-- konten modal-->
+     <div class="modal-content">
+         <!-- heading modal -->
+         <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">FAQ</h4>
+         </div>
+         <!-- body modal -->
+         <div class="modal-body">
+             <p>
+1.Bagaimana saya bisa mendapatkan sertifikat ?<br>
+Apakah saya bisa mendapatkan sertifikat jika saya tidak masuk ?<br>
+<b>
+Peserta yang mendapat sertifikat adalah peserta yang hadir 2/3 dari jumlah kehadiran (Peserta hanya boleh ijin 1 kali dalam 3 pertemuan untuk mendapatkan sertifikat) <br></p>
+</b>
+<br>
+2.Bagaimana saya bisa mengikuti Doscom University ?<br>
 
+<b>
+Anda dapat mendaftar melalui stand yang dibuka di gedung H atau bisa langsung ke camp Doscom gedung D Lantai 1 depan Kantin D, atau juga bisa melalui website : www.doscom.org/university
+</b>
+<br>
+<br>
+3.Apakah syarat dalam mengikuti Doscom University ? <br>
+
+<b>
+Apakah syarat dalam mengikuti Doscom University ?
+
+Secara umum tidak ada syarat khusus dalam mengikuti Doscom University, yang perlu dipersiapkan adalah niat sungguh-sungguh dalam menuntut ilmu. Namun ada syarat khusus yang harus ditempuh dalam mengikuti Doscom University kelas Game Development, yaitu peserta minimal sudah mempelajari bahasa Pemrograman Java atau telah menguasai OOP (Object Oriented Programming) / PBO (Pemrograman Berbasis Obyek) atau telah mengambil matakuliah OOP (Object Oriented Programming) / PBO (Pemrograman Berbasis Obyek)
+</b>
+<br>
+<br>
+
+</div>
+         <!-- footer modal -->
+         <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+         </div>
+     </div>
+ </div>
+</div>
+</div>
 
 
     <!-- Modal -->
@@ -804,8 +849,10 @@ Doscom University<br></h1>
 			<ul class="we-create animated fadeInUp delay-1s">
 				<!-- <li>Kelas Pemrograman  di Semarang, Indonesia</li> -->
 			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
-		</div>
+			<!-- <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a> -->
+        
+            <a href="#service" class="btn btn-info btn-lg">Get Started</a> 
+        </div>
 	</header>
 	<!--header-end-->
 
@@ -840,9 +887,8 @@ Doscom University<br></h1>
 						</div>
 						<div class="service-list-col2">
 							<h3>Doscom University</h3>
-							<p><b>Doscom University adalah program pemblajaran Full Stack JavaScript
-							immersive pertama di Indonesia. Kurikulum kami dirancang untuk membangun
-							keahlian yang dapat diaplikasikan pada perkembangan dunia teknologi terkini.</b> <br>
+							<p><b>Doscom University (DU) adalah kegiatan belajar mengajar yang berbentuk workshop dengan para dosen pengurus Doscom. DU tahun 2018 membuka
+                             7 kelas yaitu Linux, Pemrograman Mobile, Pemrograman Web, Jaringan Komputer, Multimedia Inkscape,Female Dev, Masing-masing kelas terdapat 3 pertemuan dengan jumlah peserta maksimal 30 orang/ kelas</b> <br>
 
 
 						</div>
@@ -988,8 +1034,8 @@ Doscom University<br></h1>
 
                     </div>
 						<div class="featured-box-col2 wow fadeInRight delay-04s">
-							<h3>&nbsp Godot Game Engine </h3>
-                            <p>&nbsp  Belajar basic 2D dengan menggunakan aplikasi Inkscape  </p>
+							<h3>&nbsp Game Development </h3>
+                            <p>&nbsp Belajar Membuat game Dengan Godot Engine  </p>
                     <br>
                 <a class="btn " data-toggle="modal" data-target="#modalMultimedia">Lihat Detail</a>
 
@@ -1208,14 +1254,14 @@ Doscom University<br></h1>
                 <div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/punk.jpg')}}" height="120px" alt="">
+						<img src="{{ asset('images/afti.jpeg')}}" height="280px" width="970px"  alt="">
 						<ul>
 							<li><a href="#" class="fa fa-twitter"></a></li>
 							<li><a href="#" class="fa fa-git"></a></li>
 							<li><a href="#" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-06s">Seviana Pungky Brilianti</h3>
+					<h3 class="wow fadeInDown delay-06s">Aftiani Wahyuastuti</h3>
 					<span class="wow fadeInDown delay-06s">Instruktur Mobile Programming</span>
 				</div>
 				
@@ -1268,13 +1314,13 @@ Doscom University<br></h1>
 					<span class="wow fadeInDown delay-09s">Instruktur Multimedia Inkscape</span>
 				</div>
 		
-          
+        
                 <div class="team-leader-box1">
                 <center>
 
 					<div class="team-leader  wow fadeInDown delay-06s">
 						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="{{ asset('images/.jpeg')}}" width="230px" alt="">
+						<img src="{{ asset('images/reno.jpeg')}}" height="280px" width="900px" alt="">
 						<ul>
 							<li><a href="#" class="fa fa-twitter"></a></li>
 							<li><a href="#" class="fa fa-git"></a></li>
@@ -1282,27 +1328,36 @@ Doscom University<br></h1>
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-06s">Reno Kurniawan</h3>
-					<span class="wow fadeInDown delay-06s">Instruktur </span>
+					<span class="wow fadeInDown delay-06s">Instruktur Game Development </span>
 				</div>
 				
         
         	</div>
 		</div>
 
-
-        
 	</section>
+
+    <section class="faq" id="daftar">
+		<!--business-talking-start-->
+		<div class="container">
+			<h2>FAQ </h2>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalfaq">Lihat</button>
+        </div>
+	</section>
+
 
 	<!--main-section team-end-->
 	<section class="business-talking" id="daftar">
 		<!--business-talking-start-->
 		<div class="container">
 			<h2>DAFTAR DOSCOM UNIVERSITY </h2>
-			<a class="link animated fadeInUp delay-1s servicelink" href="{{ url('daftar') }}">DAFTAR</a>
-			<br>
-		</div>
+			<!-- <a class="link animated fadeInUp delay-1s servicelink" href="{{ url('daftar') }}">DAFTAR</a> -->
+            <a  href="{{ url('daftar') }}"class="btn btn-info btn-lg">Daftar</a> <br/><br/>
+        </div>
 	</section>
 	<!--business-talking-end-->
+
+  
 	<div class="container">
 		<section class="main-section contact" id="contact">
 
@@ -1329,7 +1384,7 @@ Doscom University<br></h1>
 						<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> 1pm - 6pm<br><strong>Saturday - Sunday:</strong> Closed</span>
 					</div> -->
                     <center>
-                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="https://facebook.com/doscomedia" class="fa fa-facebook"></a>
                     <a href="https://twitter.com/doscomedia" class="fa fa-twitter"></a>
                     <a href="https://instagram.com/doscomedia" class="fa fa-instagram"></a>
                     <center>
